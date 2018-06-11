@@ -1,0 +1,112 @@
+#dock1{
+    position: absolute;
+    left: 15%;
+    transform: translateY(45%);
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    background: rgba(0,0,0,.8);
+    border-radius: 10px;
+    transition: all ease .7s;
+}
+#dock1:hover{
+	position: absolute;
+	width: 420px;
+	height: 420px;
+	padding: 20px;
+	transition: all ease .7s;
+}
+#dock1 img{
+	height: 250px;
+	width: 250px;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 50%;
+	top: calc(-250px/2);
+	left: calc(50% - 125px);
+}
+#dock2{
+    position: absolute;
+    right: 15%;
+    transform: translateY(45%);
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    background: rgba(0,0,0,.8);
+    border-radius: 10px;
+    transition: all ease .7s;
+}
+#dock2:hover{
+	position: absolute;
+	width: 420px;
+	height: 420px;
+	padding: 20px;
+	transition: all ease .7s;
+}
+#dock2 img{
+	height: 250px;
+	width: 250px;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 50%;
+	top: calc(-250px/2);
+	left: calc(50% - 125px);
+}
+#dock1 h2{
+	position: relative;
+	color: green;
+	top: 62%;
+	text-align: center;
+	font-size: 28px;
+	font-family: cursive;
+	font-style: italic;
+}
+#dock2 h2{
+	position: relative;
+	color: green;
+	top: 62%;
+	text-align: center;
+	font-size: 28px;
+	font-family: cursive;
+	font-style: italic;
+}
+#dock1 h3{
+	position: relative;
+	color: green;
+	top: 62%;
+	font-size: 21px;
+	text-align: center;
+	font-family: cursive;
+	font-style: italic;
+}
+#dock2 h3{
+	position: relative;
+	color: green;
+	top: 62%;
+	font-size: 21px;
+	text-align: center;
+	font-family: cursive;
+	font-style: italic;
+}
+#dock1 p{
+	position: absolute;
+	margin: 10px;
+	padding: 10px;
+	top: 35%;
+	font-family: cursive;
+	font-style: italic;
+	font-size: 17px;
+	color: #fff;
+}
+#dock2 p{
+	position: absolute;
+	margin: 10px;
+	padding: 10px;
+	top: 35%;
+	font-family: cursive;
+	font-style: italic;
+	font-size: 17px;
+	color: #fff;
+}

@@ -1,0 +1,38 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.parallax-window{
+	background: transparent;
+	min-height: 400px;
+}
+.window-wrapper{
+	background: #ffffff;
+	height: 400px;
+}
+#box1{
+	
+	width: 100%;
+	height: 100vh;
+	
+}
+#box2{
+	background-image: url('../images/beach.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#box3{
+	background: white;
+	width: 100%;
+	height: 100vh;
+	transition: all ease 2s;
+}
+#box4{
+	background-image: url('../images/messi.jpg');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+}

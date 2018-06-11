@@ -1,0 +1,46 @@
+.searchbar{
+	display: flex;
+	justify-content: center;
+	padding-top: 5%;
+	align-self: center;
+	position: relative;
+}
+.bar form{
+	align-self: center;
+	position: relative;
+}
+input[type ="search"]{
+	padding-top: 5%;
+	align-content: center;
+	border: 0;
+	outline: 0;
+	padding: 0;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	text-indent: 10px;
+	color: #161a21;
+	font-weight: 300;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	transition: all ease 1.5s;
+	position: relative;
+}
+#search-icon{
+	width: 50px;
+	height: 50px;
+	background-color: orange;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px; /* brings the circle to center*/
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transition: all .5s;
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+#search-icon:hover{
+	cursor: pointer;
+	transform: rotate(360deg);
+	transform-origin: center;
+}

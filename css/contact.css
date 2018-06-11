@@ -1,0 +1,99 @@
+#leftcontactdock{
+    position: absolute;
+    left: 15%;
+    transform: translateY(45%);
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    background: rgba(0,0,0,.8);
+    border-radius: 10px;
+}
+#leftcontactdock h2{
+    position: relative;
+    text-align: center;
+    color: #8e3c08;
+    font-style: italic;
+}
+#rightcontactdock{
+    position: absolute;
+    right: 15%;
+    transform: translateY(45%);
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    background: rgba(0,0,0,.8);
+    border-radius: 10px;
+}
+#rightcontactdock h2{
+    top: 13%;
+    position: relative;
+    text-align: center;
+    color: #8e3c08;
+    font-style: italic;
+    transition: .5s;
+}
+#rightcontactdock h2:hover {
+    color: #fff;
+    transition: .5s;
+}
+#rightcontactdock h4{
+    position: relative;
+    text-align: center;
+    color: #8e3c08;
+    top: 15%;
+    font-style: italic;
+}
+#leftcontactdock .inputbox{
+    position: relative;
+}
+#leftcontactdock .inputbox input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+#leftcontactdock .inputbox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+#leftcontactdock .inputbox input:focus ~ label,
+#leftcontactdock .inputbox input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color:green;
+    font-size: 14px;
+}
+#leftcontactdock input[type="submit"]{
+    position: absolute;
+    bottom: 20%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #0a1221;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: all .5s;
+    font-size: 14px;
+}
+#leftcontactdock input[type="submit"]:hover{
+    width : 120px;
+    transition: all .5s;
+}
